@@ -49,7 +49,7 @@ public class Alphabeta {
         Node kvv = new Node(null, new ArrayList<Node>(), -1, +1, true, 1);
         kv.children.add(kvv);
 
-        Node koo = new Node(null, new ArrayList<Node>(), -1, +1, true, 0);
+        Node koo = new Node(null, new ArrayList<Node>(), -1, +1, true, 1);
         ko.children.add(koo);
 
         //oikea
